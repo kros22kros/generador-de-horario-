@@ -77,6 +77,9 @@ La primera vez pide confirmar el nombre del proyecto y el equipo; acepta los
 valores por defecto. Al terminar entrega una URL como
 `https://generador-horarios-xxxx.vercel.app`.
 
+**URL de producción de este proyecto:**
+<https://generador-horarios-nine.vercel.app>
+
 > **Importante en Vercel:** el plan gratuito usa un sistema de archivos de solo
 > lectura. La app copia automáticamente `horarios.db` a `/tmp` para funcionar,
 > pero los cambios (horarios generados, ediciones) pueden perderse al

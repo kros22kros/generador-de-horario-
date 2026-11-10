@@ -53,6 +53,7 @@ Abra **http://127.0.0.1:5000** en el navegador.
 ## Despliegue
 
 - **Local (Windows):** doble clic en `run.bat`.
+- **En línea (Vercel):** <https://generador-horarios-nine.vercel.app>
 - **Solo ver los horarios (sin instalar nada):** abre
   `ABRIR_VISTA_PREVIA.html`; también incluye `VISTA_PREVIA.pdf` y
   `horario_ejemplo.xlsx`.
