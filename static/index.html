@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Generador de Horarios Académicos</title>
+<link rel="stylesheet" href="/static/css/styles.css">
+</head>
+<body>
+<div class="layout">
+  <aside class="sidebar" id="sidebar">
+    <div class="brand">
+      <div class="brand-icon">H</div>
+      <div>
+        <div class="brand-title">HorariosPro</div>
+        <div class="brand-sub" id="brand-school">Colegio</div>
+      </div>
+    </div>
+    <nav class="nav" id="nav">
+      <a href="#/inicio" data-route="inicio"><span class="ni">◧</span> Inicio</a>
+      <a href="#/colegio" data-route="colegio"><span class="ni">▣</span> Colegio</a>
+      <a href="#/grados" data-route="grados"><span class="ni">▤</span> Grados y cursos</a>
+      <a href="#/profesores" data-route="profesores"><span class="ni">☻</span> Profesores</a>
+      <a href="#/asignaturas" data-route="asignaturas"><span class="ni">✎</span> Asignaturas</a>
+      <a href="#/aulas" data-route="aulas"><span class="ni">⌂</span> Aulas</a>
+      <a href="#/jornadas" data-route="jornadas"><span class="ni">◷</span> Horarios / Jornadas</a>
+      <a href="#/bloques" data-route="bloques"><span class="ni">▦</span> Bloques</a>
+      <a href="#/reglas" data-route="reglas"><span class="ni">⚖</span> Reglas</a>
+      <a href="#/generar" data-route="generar"><span class="ni">⚡</span> Generar horario</a>
+      <a href="#/horarios" data-route="horarios"><span class="ni">▧</span> Horarios generados</a>
+      <a href="#/validacion" data-route="validacion"><span class="ni">✓</span> Validación</a>
+      <a href="#/exportar" data-route="exportar"><span class="ni">⤓</span> Exportar</a>
+      <a href="#/config" data-route="config"><span class="ni">⚙</span> Configuración</a>
+    </nav>
+    <div class="sidebar-foot">CSP · Backtracking · Reglas duras y blandas</div>
+  </aside>
+
+  <main class="main">
+    <header class="topbar">
+      <button class="btn-icon" id="menu-toggle" title="Menú">☰</button>
+      <h1 id="page-title">Inicio</h1>
+      <div class="topbar-actions">
+        <span class="pill" id="school-pill">—</span>
+        <button class="btn btn-primary" id="quick-generate">⚡ Generar horario</button>
+      </div>
+    </header>
+    <div class="content" id="view"></div>
+  </main>
+</div>
+
+<div class="modal-backdrop hidden" id="modal-backdrop">
+  <div class="modal" id="modal"></div>
+</div>
+<div class="toasts" id="toasts"></div>
+
+<script src="/static/js/api.js"></script>
+<script src="/static/js/ui.js"></script>
+<script src="/static/js/app.js"></script>
+</body>
+</html>

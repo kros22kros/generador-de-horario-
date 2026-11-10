@@ -1,0 +1,44 @@
+============================================================
+ GENERADOR DE HORARIOS ACADÉMICOS
+============================================================
+
+PARA VER LOS HORARIOS (RECOMENDADO · SIN INSTALAR NADA)
+------------------------------------------------------------
+1. Descomprime el ZIP.
+2. Abre el archivo:  ABRIR_VISTA_PREVIA.html
+   (doble clic; se abre en tu navegador)
+3. También puedes abrir:
+   - VISTA_PREVIA.pdf     (horario completo en PDF)
+   - horario_ejemplo.xlsx (horario en Excel)
+
+La vista previa muestra el horario general, por curso, por profesor
+y por aula. Es solo de lectura.
+
+PARA USAR LA APLICACIÓN COMPLETA (EDITAR Y GENERAR HORARIOS)
+------------------------------------------------------------
+Requisitos: Python 3.10 o superior.
+
+1. Instala Python desde https://www.python.org/downloads/
+   IMPORTANTE: marca la casilla "Add python.exe to PATH".
+2. Descomprime el ZIP.
+3. Entra en la carpeta  generador-horarios.
+4. Haz doble clic en  run.bat
+5. Espera unos segundos: se abrirá el navegador en
+   http://127.0.0.1:5000
+
+La primera vez tarda un poco porque instala las dependencias.
+
+CONTENIDO
+------------------------------------------------------------
+ABRIR_VISTA_PREVIA.html  Vista previa completa (abrir primero)
+VISTA_PREVIA.pdf         Horario en PDF
+horario_ejemplo.xlsx     Horario en Excel
+run.bat                  Inicia la aplicación completa (Windows)
+app.py / scheduler/      Código de la aplicación
+static/                  Interfaz web
+DESPLIEGUE.md            Cómo publicarla en internet
+README.md                Documentación técnica
+
+Si no tienes Python, usa la vista previa HTML o PDF:
+no necesita instalar nada.
+============================================================
